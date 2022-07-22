@@ -1,0 +1,90 @@
+{
+  "nodes": {
+    "autoderef-main": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-autoderef-main": "src-autoderef-main"
+      },
+      "locked": {
+        "dir": "main",
+        "lastModified": 1658201255,
+        "narHash": "sha256-uuTYD7vmT62NA86k3m9hZGZqQTaX6BzHyf3C/uLUoPA=",
+        "owner": "nim-nix-pkgs",
+        "repo": "autoderef",
+        "rev": "ab81e9dd494f49c7d1e1be9345ae08b385766433",
+        "type": "github"
+      },
+      "original": {
+        "dir": "main",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "autoderef",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "autoderef-main": "autoderef-main",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-autoderef-main": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1656140410,
+        "narHash": "sha256-lu966gydUwQgxYWmm3VVGNYLvCrEHgBeAnLQmLGk0Mw=",
+        "owner": "sls1005",
+        "repo": "autoderef",
+        "rev": "3d9448c9adb3dd0ebb089a37edff10e8ecda0b34",
+        "type": "github"
+      },
+      "original": {
+        "owner": "sls1005",
+        "ref": "refs/heads/main",
+        "repo": "autoderef",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
