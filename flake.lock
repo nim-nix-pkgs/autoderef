@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "main",
-        "lastModified": 1661565329,
-        "narHash": "sha256-dLSPCWqCDTVtNJzdK6INubi+L8NAegaIgOrfHv5/2Hs=",
+        "lastModified": 1661566900,
+        "narHash": "sha256-LokX+6RxZFQaa3E/KfNdlO5kf8cyHmTUo25+h7DjmyM=",
         "owner": "nim-nix-pkgs",
         "repo": "autoderef",
-        "rev": "b68a573c8432e3d6ca1faceda048fabcd7a8cd41",
+        "rev": "f66477bba0d4f83ea61f0e00670318ec7468b5ef",
         "type": "github"
       },
       "original": {
